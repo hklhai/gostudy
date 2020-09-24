@@ -37,7 +37,7 @@ func aesCtrDecrypt(encryptData, key []byte) ([]byte, error) {
 // https://blog.csdn.net/hbshhb/article/details/93404539
 func main() {
 	//明文，需要加密的数据
-	src := "teamA-01"
+	src := "kafka|baidu"
 
 	//对称秘钥，aes，16字节
 	key := "12345678876543AD" //16
