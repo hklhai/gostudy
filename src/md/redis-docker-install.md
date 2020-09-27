@@ -14,4 +14,8 @@ redis-cli
 set test 123
 
 get test
+
+// 设置过期时间
+EXPIRE test 5
+
 ```
